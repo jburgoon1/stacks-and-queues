@@ -41,7 +41,6 @@ class Queue {
     this.first = this.first.next
     this.size--
     return removedItem.val
-
   }
 
   /** peek(): return the value of the first node in the queue. */
